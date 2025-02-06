@@ -31,7 +31,7 @@ class InvoiceAdaptor implements InvoiceDetails {
         this.invoiceForIndia = invoiceForIndia;
     }
     public double getTotalAmountInUSD() {
-        return invoiceForIndia.getTotalAmountInINR()/87;
+        return invoiceForIndia.getTotalAmountInINR()/87.0;
     }
     public double getTotalWeightInLBS() {
         return invoiceForIndia.getTotalWeightInKG()*2.2;

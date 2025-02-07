@@ -32,4 +32,5 @@ Here are the things we are going to cover
     - Don't
     - Repeat
     - Yourself
+- [UML Class Diagram](./UML.md)
 

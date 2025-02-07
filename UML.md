@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLD Preparation for Interviews - UML Class Diagrams</title>
 </head>
 <body>
     <h1>Low-Level Design (LLD) Preparation for Interviews</h1>

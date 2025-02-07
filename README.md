@@ -1,6 +1,6 @@
 Here are the things we are going to cover
 - **LLD Examples**
-  - Snack and Ladder
+  - Snake and Ladder
   - Chess
   - Parking Lot
   - Splitwise

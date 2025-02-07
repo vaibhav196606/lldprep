@@ -1,1 +1,35 @@
-ReadMe
+Here are the things we are going to cover
+- LLD Examples
+  - Snack and Ladder
+  - Chess
+  - Parking Lot
+  - Splitwise
+  - Vending Machine
+  - ATM
+  - Elevator System
+- Design Patterns
+  - Abstract Factory
+  - Factory
+  - Singleton
+  - Adapter
+  - Decorator
+  - Observer
+  - Builder
+  - Strategy
+- Design Principles
+  - S.O.L.I.D 
+    - Single Responsibility Principle
+    - Open/Close Principle
+    - Liskov Substitution Principle
+    - Interface Segregation Principle
+    - Dependency Inversion Principle
+  - K.I.S.S
+    - Keep
+    - It
+    - Simple &
+    - Stupid
+  - D.R.Y
+    - Don't
+    - Repeat
+    - Yourself
+

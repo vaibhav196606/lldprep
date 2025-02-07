@@ -1,5 +1,5 @@
 Here are the things we are going to cover
-- LLD Examples
+- **LLD Examples**
   - Snack and Ladder
   - Chess
   - Parking Lot
@@ -7,16 +7,16 @@ Here are the things we are going to cover
   - Vending Machine
   - ATM
   - Elevator System
-- Design Patterns
-  - Abstract Factory
-  - Factory
-  - Singleton
-  - Adapter
-  - Decorator
-  - Observer
-  - Builder
-  - Strategy
-- Design Principles
+- **[Design Patterns](./src/patterns)**
+  - [Abstract Factory](./src/patterns/AbstractFactoryImpl.java)
+  - [Factory](./src/patterns/FactoryImpl.java)
+  - [Singleton](./src/patterns/SingletonImpl.java)
+  - [Adapter](./src/patterns/AdapterImpl.java)
+  - [Decorator](./src/patterns/DecoratorImpl.java)
+  - [Observer](./src/patterns/ObserverImpl.java)
+  - [Builder](./src/patterns/BuilderImpl.java)
+  - [Strategy](./src/patterns/StrategyImpl.java)
+- **Design Principles**
   - S.O.L.I.D 
     - Single Responsibility Principle
     - Open/Close Principle

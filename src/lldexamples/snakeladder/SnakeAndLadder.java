@@ -1,4 +1,4 @@
-package lldexamples;
+package lldexamples.snakeladder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -136,3 +136,5 @@ public class SnakeAndLadder {
         game.play();
     }
 }
+
+// UML available in the same folder

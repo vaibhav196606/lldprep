@@ -16,6 +16,8 @@ Here are the things we are going to cover
     - [Code](./src/lldexamples/chess/Chess.java)
     - [UML](./src/lldexamples/chess/ChessUML.png)
   - Parking Lot
+    - [Code](./src/lldexamples/parkinglot/Parking.java)
+    - [UML](./src/lldexamples/parkinglot/ParkingLotUML.png)
   - Splitwise
   - Vending Machine
   - ATM

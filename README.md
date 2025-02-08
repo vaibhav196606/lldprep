@@ -1,14 +1,4 @@
 Here are the things we are going to cover
-- **LLD Examples**
-  - Snake and Ladder
-    - [Code](./src/lldexamples/snakeladder/SnakeAndLadder.java)
-    - [UML](./src/lldexamples/snakeladder/SnL_UML.png)
-  - Chess
-  - Parking Lot
-  - Splitwise
-  - Vending Machine
-  - ATM
-  - Elevator System
 - **[Design Patterns](./src/patterns)**
   - [Abstract Factory](./src/patterns/AbstractFactoryImpl.java)
   - [Factory](./src/patterns/FactoryImpl.java)
@@ -18,6 +8,18 @@ Here are the things we are going to cover
   - [Observer](./src/patterns/ObserverImpl.java)
   - [Builder](./src/patterns/BuilderImpl.java)
   - [Strategy](./src/patterns/StrategyImpl.java)
+- **LLD Examples**
+  - Snake and Ladder
+    - [Code](./src/lldexamples/snakeladder/SnakeAndLadder.java)
+    - [UML](./src/lldexamples/snakeladder/SnL_UML.png)
+  - Chess
+    - [Code](./src/lldexamples/chess/Chess.java)
+    - [UML](./src/lldexamples/chess/ChessUML.png)
+  - Parking Lot
+  - Splitwise
+  - Vending Machine
+  - ATM
+  - Elevator System
 - **Design Principles**
   - S.O.L.I.D 
     - Single Responsibility Principle

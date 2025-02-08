@@ -28,6 +28,10 @@ class Player{
 }
 
 class Board{
+    private static final int BOARD_SIZE = 100;
+    private static final int MAX_SNAKES = 8;
+    private static final int MAX_LADDERS = 8;
+
     private HashMap<Integer,Integer> ladders;
     private HashMap<Integer,Integer> snakes;
     public Board(){
@@ -38,16 +42,16 @@ class Board{
 
     private void assignValues() {
         int snakeCount = 0;
-        while(snakeCount<8){
-            int start = (int)(Math.random()*100)+1;
-            int end = (int)(Math.random()*100)+1;
+        while(snakeCount<MAX_SNAKES){
+            int start = (int)(Math.random()*BOARD_SIZE)+1;
+            int end = (int)(Math.random()*BOARD_SIZE)+1;
             if(start>end && !snakes.containsKey(start) && !ladders.containsKey(start)){
                 snakes.put(start,end);
                 snakeCount++;
             }
         }
         int ladderCount = 0;
-        while(ladderCount<8){
+        while(ladderCount<MAX_LADDERS){
             int start = (int)(Math.random()*100)+1;
             int end = (int)(Math.random()*100)+1;
             if(start<end && !ladders.containsKey(start) && !snakes.containsKey(start)){
@@ -98,7 +102,6 @@ class Move{
 }
 
 class Game{
-    private static Game instance;
     private Board board;
     private ArrayList<Player> players;
     private GameState state;

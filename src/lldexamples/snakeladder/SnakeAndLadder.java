@@ -78,7 +78,7 @@ class Dice{
 }
 
 class Move{
-    public static void execute(Board board, Player player, Game game){
+    public static void execute(Board board, Player player){
         System.out.println("Its turn for : " + player.getName());
         System.out.println("Rolling the dice");
         int dice = Dice.rollDice();
@@ -118,7 +118,7 @@ class Game{
         state = GameState.STARTED;
         while(state!=GameState.OVER){
             for(int i = 0; i < noOfPlayers; i++){
-                Move.execute(board, players.get(i), this);
+                Move.execute(board, players.get(i));
                 if(players.get(i).getPosition()==100){
                     state = GameState.OVER;
                     System.out.println("Player " + players.get(i).getName() +" wins!");

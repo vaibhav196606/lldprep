@@ -19,6 +19,8 @@ Here are the things we are going to cover
     - [Code](./src/lldexamples/parkinglot/Parking.java)
     - [UML](./src/lldexamples/parkinglot/ParkingLotUML.png)
   - Splitwise
+    - [Code](./src/lldexamples/splitwise/Splitwise.java)
+    - [UML](./src/lldexamples/splitwise/SplitWiseUML.png)
   - Vending Machine
   - ATM
   - Elevator System

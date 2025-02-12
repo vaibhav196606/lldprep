@@ -23,6 +23,8 @@ Here are the things we are going to cover
     - [Code](./src/lldexamples/splitwise/Splitwise.java)
     - [UML](./src/lldexamples/splitwise/SplitWiseUML.png)
   - Vending Machine
+    - [Code](./src/lldexamples/vendingmachine/VendingMachApp.java)
+    - [UML](./src/lldexamples/vendingmachine/VendingUML.png)
   - ATM
   - Elevator System
 - **Design Principles**

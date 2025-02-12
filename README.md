@@ -8,6 +8,7 @@ Here are the things we are going to cover
   - [Observer](./src/patterns/ObserverImpl.java)
   - [Builder](./src/patterns/BuilderImpl.java)
   - [Strategy](./src/patterns/StrategyImpl.java)
+  - [State](./src/patterns/StateImpl.java)
 - **LLD Examples**
   - Snake and Ladder
     - [Code](./src/lldexamples/snakeladder/SnakeAndLadder.java)
